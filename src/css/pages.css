@@ -65,6 +65,13 @@
   line-height: 200%;
   list-style-type: disc;
 }
+.menu_options {
+  color: white;
+}
+.menu_spread {
+  background-image: url(../../src/images/banner/pricebg.webp);
+  background-size: cover;
+}
 /* static web design end  */
 /* feature_list start  */
 
@@ -227,7 +234,23 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
+.chooseus_detail {
+  display: flex;
+}
+.chooseus_body {
+  background-color: white;
+  width: 40%;
+  display: flex;
+  margin-left: 5%;
+  border-radius: 8px;
+}
+.chooseus_body img {
+  width: 50%;
+  border-radius: 8px;
+}
+.choose_us_description {
+  width: 50%;
+}
 /* choose us section end  */
 
 /* FAQ's start  */
